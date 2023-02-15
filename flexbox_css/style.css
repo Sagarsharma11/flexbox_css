@@ -1,0 +1,35 @@
+.flex-container{    
+    display: flex;
+    border: 2px solid gray;
+    height: 45vh;
+    /* flex-direction: row;
+    flex-direction: row-reverse;
+    flex-direction: column-reverse; */
+    /* justify-content: start; */
+    justify-content: center;
+    /* justify-content: end; */
+    /* align-items: center; */
+    /* align-items: flex-end;
+    align-items: flex-start; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+}
+.flex-item{
+    border: 2px solid red;
+    background-color: aquamarine;
+    margin: 12px;
+    width: 100px;
+    height: 100px;
+}
+.item3{
+    /* flex-grow: 1; */
+    /* flex-shrink: 2; */
+    align-self: center;
+}
+/* to change the order of the element with flex
+.item1{
+    order: 3;
+}
+.item2{
+    order: 4;
+} */
